@@ -20,8 +20,8 @@ public class Solution {
     public static volatile List<Person> allPeople = new ArrayList<>();
 
     static {
-        allPeople.add(Person.createMale("Donald Chump", new Date()));  // id=0
-        allPeople.add(Person.createMale("Larry Gates", new Date()));  // id=1
+        allPeople.add(Person.createMale("Donald Chump", new Date())); 
+        allPeople.add(Person.createMale("Larry Gates", new Date()));  
     }
 
 
